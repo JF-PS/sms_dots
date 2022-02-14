@@ -26,7 +26,6 @@ const fetchGQL = async (
   }
 
   try {
-    window.location.protocol="http";
     response = await axiosInstance[method](
       "/graphql",
       {
